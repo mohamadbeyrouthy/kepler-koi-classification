@@ -1,0 +1,34 @@
+{
+  "setting": "(128, 64)",
+  "n_inputs": 40,
+  "hidden": [
+    128,
+    64
+  ],
+  "dropout": 0.0,
+  "weight_decay": 0.0,
+  "features": [
+    "koi_period",
+    "koi_duration",
+    "koi_depth",
+    "koi_impact",
+    "koi_ror",
+    "koi_model_snr",
+    "koi_num_transits",
+    "koi_prad",
+    "koi_teq",
+    "koi_insol",
+    "koi_steff",
+    "koi_slogg",
+    "koi_srad",
+    "koi_smet",
+    "koi_kepmag",
+    "koi_dicco_msky",
+    "koi_dikco_msky",
+    "koi_bin_oedp_sig",
+    "density_ratio",
+    "depth_mismatch",
+    "snr_per_transit"
+  ],
+  "seed": 42
+}
