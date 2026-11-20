@@ -1,0 +1,14 @@
+{
+  "final_model": "RandomForest",
+  "threshold": 0.39,
+  "thresholds": {
+    "Baseline": 0.5,
+    "LogReg": 0.58,
+    "DecisionTree": 0.9,
+    "RandomForest": 0.39,
+    "AdaBoost": 0.5,
+    "NeuralNet": 0.68
+  },
+  "best_level1": "RandomForest",
+  "rule": "highest validation F1; a simpler model within 0.01 is preferred"
+}
