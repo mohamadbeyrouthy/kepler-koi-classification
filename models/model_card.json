@@ -1,0 +1,48 @@
+{
+  "model": "RandomForest",
+  "threshold": 0.39,
+  "positive_class": "CONFIRMED planet (1) vs FALSE POSITIVE (0)",
+  "features": [
+    "koi_period",
+    "koi_duration",
+    "koi_depth",
+    "koi_impact",
+    "koi_ror",
+    "koi_model_snr",
+    "koi_num_transits",
+    "koi_prad",
+    "koi_teq",
+    "koi_insol",
+    "koi_steff",
+    "koi_slogg",
+    "koi_srad",
+    "koi_smet",
+    "koi_kepmag",
+    "koi_dicco_msky",
+    "koi_dikco_msky",
+    "koi_bin_oedp_sig",
+    "density_ratio",
+    "depth_mismatch",
+    "snr_per_transit"
+  ],
+  "how_to_use": "X = features.get_X(df); p = model.predict_proba(X)[:, 1]; planet if p >= threshold",
+  "selection_rule": "highest validation F1; a simpler model within 0.01 is preferred",
+  "best_params": "{'model__n_estimators': 200, 'model__min_samples_leaf': 1, 'model__max_features': 'sqrt', 'model__max_depth': None, 'model__class_weight': None}",
+  "validation_F1": 0.9530434782608695,
+  "test_metrics": {
+    "F1": 0.9527085124677558,
+    "precision": 0.9618055555555556,
+    "recall": 0.9437819420783644,
+    "accuracy": 0.964424320827943,
+    "FPR": 0.0229405630865484
+  },
+  "data": "NASA Exoplanet Archive KOI cumulative table; 60/20/20 train/val/test split by star (kepid)",
+  "n_train": 4519,
+  "n_val": 1522,
+  "n_test": 1546,
+  "versions": {
+    "python": "3.14.4",
+    "scikit-learn": "1.9.1"
+  },
+  "created": "2026-11-20"
+}
