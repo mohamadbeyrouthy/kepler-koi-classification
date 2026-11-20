@@ -32,16 +32,16 @@
   "test_metrics": {
     "F1": 0.9527085124677558,
     "precision": 0.9618055555555556,
-    "recall": 0.9437819420783644,
+    "recall": 0.9437819420783645,
     "accuracy": 0.964424320827943,
-    "FPR": 0.0229405630865484
+    "FPR": 0.022940563086548488
   },
   "data": "NASA Exoplanet Archive KOI cumulative table; 60/20/20 train/val/test split by star (kepid)",
   "n_train": 4519,
   "n_val": 1522,
   "n_test": 1546,
   "versions": {
-    "python": "3.14.4",
+    "python": "3.12.10",
     "scikit-learn": "1.9.1"
   },
   "created": "2026-11-20"
