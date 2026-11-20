@@ -1,0 +1,20 @@
+{
+  "final_model": "RandomForest",
+  "threshold": 0.39,
+  "source": "final_choice.json (P5)",
+  "test_F1": 0.9527,
+  "missed_planets": 33,
+  "accepted_fps": 22,
+  "ECE_before": 0.0331,
+  "ECE_after": 0.0137,
+  "confident_mistakes": {
+    "fp_p_gt_0.9": 2,
+    "planet_p_lt_0.1": 6
+  },
+  "deferred_share": 0.022,
+  "auto_F1": 0.9621,
+  "deferred_share_calibrated": 0.0175,
+  "auto_F1_calibrated": 0.9618,
+  "high_recall_threshold": 0.2,
+  "high_precision_threshold": 0.68
+}

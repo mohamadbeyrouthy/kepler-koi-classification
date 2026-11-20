@@ -1,0 +1,6 @@
+flag,meaning,false positives with flag,called planet,% called planet
+koi_fpflag_nt,not transit-like,287,6,2.1
+koi_fpflag_ss,stellar eclipse,440,7,1.6
+koi_fpflag_co,centroid offset,381,8,2.1
+koi_fpflag_ec,ephemeris match (contamination),228,5,2.2
+(none),no flag set,22,1,4.5

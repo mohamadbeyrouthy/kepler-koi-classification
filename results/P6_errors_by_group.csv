@@ -1,0 +1,20 @@
+group,level,rows,planet share,error rate,missed planets,miss rate,accepted FPs,false-alarm rate
+SNR,10-50,805,0.55,0.047,25,0.057,13,0.036
+SNR,< 10,160,0.02,0.038,3,0.75,3,0.019
+SNR,> 50,526,0.27,0.019,5,0.035,5,0.013
+SNR,missing,55,0.0,0.018,0,,1,0.018
+transits observed,<= 3,77,0.01,0.013,1,1.0,0,0.0
+transits observed,> 3,1323,0.44,0.039,30,0.051,21,0.028
+transits observed,missing,146,0.01,0.021,2,1.0,1,0.007
+missing values,0,1324,0.44,0.039,31,0.053,20,0.027
+missing values,>= 1,222,0.01,0.018,2,1.0,2,0.009
+star type,dwarf (logg >= 3.5),1438,0.4,0.037,32,0.055,21,0.025
+star type,giant (logg < 3.5),53,0.09,0.019,1,0.2,0,0.0
+star type,missing,55,0.0,0.018,0,,1,0.018
+star temperature,Sun-like (5200-6000 K),659,0.44,0.03,12,0.041,8,0.022
+star temperature,cool (< 5200 K),297,0.53,0.057,13,0.082,4,0.029
+star temperature,hot (> 6000 K),535,0.25,0.032,8,0.059,9,0.023
+star temperature,missing,55,0.0,0.018,0,,1,0.018
+planet radius,<= 15 Earth radii,1073,0.54,0.048,30,0.051,21,0.043
+planet radius,> 15 Earth radii,418,0.01,0.007,3,0.75,0,0.0
+planet radius,missing,55,0.0,0.018,0,,1,0.018
